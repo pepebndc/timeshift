@@ -154,6 +154,12 @@ export default function LandingPage() {
             before it finds you.
           </span>
           <div className="flex items-center gap-4">
+            <Link href="/policy" className="hover:text-gray-400 transition-colors">
+              Privacy
+            </Link>
+            <Link href="/terms" className="hover:text-gray-400 transition-colors">
+              Terms
+            </Link>
             <span>
               Created by{" "}
               <a
