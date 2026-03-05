@@ -2,7 +2,7 @@
 
 Detect meetings that silently shift time during Daylight Saving Time transition gaps — the weeks when the US and Europe change clocks on different dates.
 
-**[Live demo →](https://timeshift.app/demo)**
+**[Live demo →](https://timeshift.com/demo)**
 
 ---
 
