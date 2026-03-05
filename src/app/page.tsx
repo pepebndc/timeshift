@@ -108,16 +108,13 @@ export default function LandingPage() {
         </div>
 
         <p className="mt-4 text-xs text-gray-600">
-          Read-only access · No calendar data stored · Free
+          Read-only access · No calendar data stored
         </p>
       </main>
 
       {/* How it works */}
       <section className="border-t border-navy-600 px-6 py-16">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-center text-sm font-semibold text-gray-500 uppercase tracking-widest mb-10">
-            How it works
-          </h2>
           <div className="grid sm:grid-cols-3 gap-8">
             {[
               {
@@ -157,14 +154,8 @@ export default function LandingPage() {
             before it finds you.
           </span>
           <div className="flex items-center gap-4">
-            <Link
-              href="/privacy"
-              className="hover:text-gray-400 transition-colors"
-            >
-              Privacy policy
-            </Link>
             <a
-              href="https://github.com"
+              href="https://github.com/pepebndc/timeshift"
               className="hover:text-gray-400 transition-colors"
               target="_blank"
               rel="noopener noreferrer"
