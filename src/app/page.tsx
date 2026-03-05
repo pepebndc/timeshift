@@ -154,6 +154,17 @@ export default function LandingPage() {
             before it finds you.
           </span>
           <div className="flex items-center gap-4">
+            <span>
+              Created by{" "}
+              <a
+                href="https://github.com/pepebndc"
+                className="hover:text-gray-400 transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Pepe Blasco
+              </a>
+            </span>
             <a
               href="https://github.com/pepebndc/timeshift"
               className="hover:text-gray-400 transition-colors"
